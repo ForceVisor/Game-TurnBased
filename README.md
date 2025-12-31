@@ -68,18 +68,17 @@ Game-TurnBased/
 │
 ├── Menu Pygame/            # Aset untuk Main Menu
 |   ├── assetss/            # (Background, font, musik menu, tombol)
-|   ├── img/
-|   ├── button.py
-|   └── main.py
-├── pokemon game/           # Aset untuk Mode TCG
+|   ├── button.py           # Button source code PVB
+|   └── main.py             # Source code PVB
+├── pokemon game/           # Aset untuk Mode TCG/PVP
 |   ├── pocket_tc_assets/   # (Gambar kartu, background, musik battle)
-│   └── turn based tcg.py
-└── Battle-main/            # Aset untuk Mode RPG
-    ├── battle.py
-    ├── button.py
-    ├── img/                # (Sprite Knight, Bandit, Background)
-    ├── sound/              # (Efek suara & musik)
-    └── monogram
+│   └── turn based tcg.py   # Source code Mode PVP
+└── Battle-main/            # Aset untuk Mode RPG/PVB
+    ├── battle.py           # Source code mode PVB
+    ├── button.py           # Button source code mode PVB
+    ├── img/                # Sprite Knight, Bandit, Background
+    ├── sound/              # Efek suara & musik
+    └── monogram            # Asset font dll
 ```
 
 Cara Bermain (_Controls_)
