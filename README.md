@@ -16,15 +16,15 @@ Simulasi permainan kartu berbasis giliran (_turn-based_) yang strategis.
     -Jawab Salah: Tidak ada bonus yang didapatkan.
 
 2. Mode PVB (RPG Adventure)
-  Pertarungan RPG klasik antara Ksatria (Knight) melawan Bandit.
+  Pertarungan RPG klasik antara Ksatria (_Knight_) melawan Bandit.
   Action System: Pilih antara menyerang (_Attack_) atau menggunakan ramuan (_Potion_).
   Turn-Based Combat: Sistem giliran antara pemain dan musuh (_Bot_).
-  Fitur "Math Penalty": Kuis matematika muncul sebagai rintangan (peluang 50% atau tiap 4 giliran).
+  Fitur "_Math Penalty_": Kuis matematika muncul sebagai rintangan (peluang 50% atau tiap 4 giliran).
     -Jawab Benar: Permainan berlanjut aman.
     -Jawab Salah/Waktu Habis: Pemain terkena _Direct Damage_ (pengurangan darah signifikan).
 
 3. Sistem Menu & Audio
-  Navigasi antarmuka yang intuitif.
+  Navigasi antarmuka yang intuitif dan interaktif.
   Pengaturan musik latar (_Background Music_) On/Off.
   Transisi mulus antar mode permainan.
 
@@ -94,6 +94,14 @@ Keyboard (Numpad/Angka):
   Mengetik jawaban saat Kuis Matematika muncul.
   Tekan ENTER untuk mengirim jawaban.
   Tekan BACKSPACE untuk menghapus angka.
+
+Credit Tim
+
+  Ketua Tim: Najwan Farhan Kusuma
+  Anggota: Ignatius Geovand Taolin
+
+Catatan untuk Pengguna: 
+  Pastikan folder aset (Menu Pygame, pokemon game, Battle-main) berada dalam satu direktori yang sama dengan file .py agar tidak terjadi error file not found
 
 
 
